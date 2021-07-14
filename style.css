@@ -16,11 +16,16 @@ body{
 .title{
     margin-right: 40px;
 }
+h2{
+    font-size: 42px;
+    font-weight: 400px;
+}
 .title a{
     color: #ffffff;
     background-color: #e02c6d ;
     padding: 10px;
     text-decoration: none;
+    border-radius: 2px;
 
 }
 
@@ -38,8 +43,8 @@ body{
 .thumbnail img{
     width: 400px;
     height: 300px;
-    padding-left: 40px;
-    margin-left: 40px;
+    padding-left: 20px;
+    margin-left: 20px;
 
 }
 
@@ -77,3 +82,10 @@ body{
 
 }
 
+/* ================highlight section============= */
+.highlight-section{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
