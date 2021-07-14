@@ -111,3 +111,40 @@ h2{
     margin-left: 30%;
     margin-top: 5px;
 }
+
+
+
+/* media quary */
+/* FOR MOBILE */
+@media only screen and (max-width:688px) {
+    .thumbnail img{
+        display: none;
+        
+    }
+    .players{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player img {
+        width: 100%;
+    }
+    .logo img{
+        width: 100px;
+        /* margin-left: 10%; */
+        padding: 5px;
+    }
+    .footer-section p{
+        font-size: 10px;
+        margin-left: 35%;
+        margin-top: 5px;
+    }
+    .icon{
+        padding: 5px;
+    }
+}
+@media only screen and (min-width:689px) and (max-width:992px){
+    .players{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
