@@ -89,3 +89,25 @@ h2{
     justify-content: center;
     padding: 40px;
 }
+
+/* ====================footer section============= */
+.logo img{
+    width: 300px;
+    /* height: 70px; */
+    margin-left: 35%;
+    padding: 25px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    padding: 10px;
+    width: 20px;
+    color: #e1dfdf;
+}
+.footer-section p{
+    font-size: 40px;
+    margin-left: 30%;
+    margin-top: 5px;
+}
